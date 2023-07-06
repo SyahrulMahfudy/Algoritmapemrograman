@@ -1,8 +1,8 @@
 #setting variable
-n1  = input("masukkan nim")
-n2  = input("masukkan nama lengkap")
-n3  = input("masukkan kelas")
-n4  = input("masukkan nama prodi")
+n1  = input("Masukkan Nim")
+n2  = input("Masukkan Nama Lengkap")
+n3  = input("Masukkan Kelas")
+n4  = input("Masukkan Nama Prodi")
 
 #setting variable nilai
 b_ind  = int(input("Nilai Bahasa indonesia  :"))
@@ -84,19 +84,19 @@ else:
    
 #menampilkan
 print("----------------------")
-print("    kartu hasil studi     ")
+print("    Kartu Hasil Studi     ")
 print("----------------------")
 print ("Nim           :",n1)
-print ("nama lengkap  :",n2)
-print ("kelas         :",n3)
-print ("program study :",n4)
+print ("Nama Lengkap  :",n2)
+print ("Kelas         :",n3)
+print ("Program Study :",n4)
 print ("----------------------")
 print ("No  Nama Makul   Nilai   Grade  ")
 print ("----------------------")
-print ("1.  bahasa Indonesia  ",b_ind,gind ), 
-print ("2.  bahasa Inggris    ",b_ing,gind2 )
+print ("1.  Bahasa Indonesia  ",b_ind,gind ), 
+print ("2.  Bahasa Inggris    ",b_ing,gind2 )
 print ("3.  Pemrograman Dasar ",pd, gind3)
-print ("4.  matematika        ",mtk, gind4)
+print ("4.  Matematika        ",mtk, gind4)
 print ("5.  Kalkulus 1        ",kal1, gind5 )
 print ("----------------------")
 print ("Rata-Rata             ",rata," ",grade_rata)
