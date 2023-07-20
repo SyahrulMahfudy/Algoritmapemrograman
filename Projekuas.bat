@@ -248,8 +248,7 @@ if %mti==n goto pengaturan
 :mti1
 echo Mematikan Komputer....
 pause
-rem hapus ini dan tulisan rem dibawah jika ingin menjalankan program mematikan komputernya
-rem shutdown -s -t 60 -c "Komputer akan dimatikan!"
+shutdown -s -t 60 -c "Komputer akan dimatikan!"
 goto pengaturan
 
 
@@ -261,8 +260,7 @@ if %rst==n goto pengaturan
 
 :rst1
 echo mengrestart Komputer....
-rem hapus ini dan tulisan rem dibawah jika ingin menjalankan program mengrestart komputernya
-rem shutdown -r -t 00 -c "Restarting komputer sedang berjalan"
+shutdown -r -t 00 -c "Restarting komputer sedang berjalan"
 
 :exit
 cls
