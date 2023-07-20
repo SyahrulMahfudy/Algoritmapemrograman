@@ -1,5 +1,4 @@
 @echo off
-rem membuat id dan pw
 set "username=1"
 set "password=1"
 
@@ -7,7 +6,6 @@ set "password=1"
 
 
 
-rem membuat menu jika id pw dimasukan
 :login
 cls
 echo Selamat datang di Program Menu Aplikasi
@@ -34,7 +32,6 @@ if "%input_username%"=="%username%" (
 
 
 
-rem membuat menu halaman utama jika id dan pw = benar
 :utama
 cls
 echo Menu:
