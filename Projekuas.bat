@@ -62,7 +62,6 @@ if "%pil%"=="1" (
 
 
 
-rem program hitung
 :Hitung
 cls
 echo Aplikasi Menghitung:
@@ -125,7 +124,6 @@ goto Hitung
 
 
 
-rem program buka aplikasi
 :menu
 cls
 echo Menu:
@@ -172,7 +170,6 @@ goto menu
 
 
 
-rem program jaringan
 :Jaringan
 cls
 echo Menu:
@@ -212,7 +209,6 @@ goto Jaringan
 
 
 
-rem program setting/pengaturan
 :pengaturan
 cls
 echo Menu:
